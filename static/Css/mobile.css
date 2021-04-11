@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/* Styling home page */
+
+#about-para{
+    font-size: 1.2rem!important;
+}
+
+
+@media only screen and (max-width: 1150px){
+    #about-us{
+        flex-direction: column;
+    }
+    .about-details{
+        margin: 50px;
+        margin-top: 15px;
+    }
+    @media only screen and (max-width: 912px){
+        .service-container{
+            flex-direction: column;
+        }
+        #reversed-container{
+            flex-direction: column-reverse;
+        }
+        #top-container{
+            margin-top: 100px;
+        }
+        @media only screen and (max-width: 908px){
+            .h-primary{
+                font-size: 9vh;
+            }
+            @media only screen and (max-width: 835px){
+                .h-primary{
+                    font-size: 3.5rem;
+                }
+                .p-primary{
+                    font-size: 2rem;
+                }
+                @media only screen and (max-width: 685px){
+                    .about-image{
+                        height: 60vw;
+                    }
+                    @media only screen and (max-width: 470px){
+                        .h-primary{
+                            font-size: 3rem;
+                        }
+                        .p-primary{
+                            font-size: 1.8rem;
+                        }
+                        @media only screen and (max-width: 428px){
+                            .p-primary{
+                                font-size: 1.5rem;
+                            }
+                            .h-primary{
+                                font-size: 2.5rem;
+                            }
+                            @media only screen and (max-width: 685px){
+                                .btn{
+                                    font-size: 0.8rem;
+                                }
+                                @media only screen and (max-width: 455px){
+                                    .about-image{
+                                        padding: 15px;
+                                    }
+                                    @media only screen and (max-width: 400px){
+                                        .h-secondary{
+                                            font-size: 1.8rem;
+                                        }
+                                        @media only screen and (max-width: 387px){
+                                            .h-primary{
+                                                font-size: 9.6vw;
+                                            }
+                                            .btn{
+                                                font-size: 0.7rem;
+                                            }
+                                            #home{
+                                                margin: 0 15vw;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

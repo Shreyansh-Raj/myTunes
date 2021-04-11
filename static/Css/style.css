@@ -1,0 +1,108 @@
+/* Importing font styles */
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling home section */
+
+#home::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    min-height: 590px;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+    background: url('../Images/background.jpg');
+    background-size: cover;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-height: 488px;
+    justify-content: center;
+    height: 80vh;
+    margin: 40px 90px;
+    padding-bottom: 0px;
+}
+
+/* Styling services container */
+
+.service-container{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-image{
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* Styling about us */
+
+#about-us{
+    height: 100%;
+    background: #53d87c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image{
+    border-radius: 5px;
+    height: 425px;
+    padding: 25px;
+}
+
+/* Heading, paragraph and button styling */
+
+.h-primary{
+    font-size: 4.8rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.p-primary{
+    font-size: 2.2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+}
+.h-secondary{
+    padding: 10px;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2rem;
+}
+.p-secondary{
+    padding: 10px;
+    padding-top: 0;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 1.3rem;
+}
+.btn{
+    background-color: rgb(255 176 222);
+    outline: none;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid rgb(124, 10, 10);
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 10px;
+    cursor: pointer;
+}

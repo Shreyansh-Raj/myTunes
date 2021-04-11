@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling contact us section */
+
+#contact-us{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 75vh;
+    margin: 43px 0px;
+    width: 100%;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#contact-form{
+    padding-top: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.input-elements{
+    font-family: 'Nunito', sans-serif;
+    padding: 5px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.h-primary{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px;
+}
+
+#btn{
+    cursor: pointer;
+    background-color: #898888e0;
+}

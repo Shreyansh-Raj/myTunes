@@ -1,0 +1,16 @@
+{% extends 'nav.html' %}
+
+{% block header %}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Playlists</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='Css/playlist.css') }}">
+{% endblock header %}
+
+{% block body %}
+<section>
+    <div class="container">
+        <h1 class="h-primary">You don't have any Playlist</h1>
+    </div>
+</section>
+{% endblock body %}

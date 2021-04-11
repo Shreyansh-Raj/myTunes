@@ -1,0 +1,65 @@
+{% extends 'nav.html' %}
+
+{% block header %}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY-TUNES | Listen to Music For Free</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='Css/style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='Css/navbar.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='Css/mobile.css') }}" media="only screen and (max-width: 1180px)">
+{% endblock header %}
+
+{% block body %}
+    <!-- Making home section -->
+    <section id="home">
+        <h1 class="h-primary">Listen to Favorite Music For Free</h1>
+        <p class="p-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum fugit porro quisquam! Provident, reiciendis velit recusandae optio totam dolores illo? Dignissimos repellendus numquam aut!</p>
+        <button class="btn">Get Started>></button>
+    </section>
+
+    <!-- Making services section -->
+    <section id="services">
+        <div class="service-container" id="top-container" style="padding-top: 20px;">
+            <img src="{{ url_for('static', filename='Images/1.jpg') }}" alt="" class="service-image">
+            <div class="details">
+                <h1 class="h-secondary">
+                    Best Music Quality
+                </h1>
+                <p class="p-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam obcaecati molestias harum quam ad fugit iusto praesentium quas, earum reiciendis quibusdam nostrum dolores sint velit perspiciatis beatae accusantium natus autem veniam nesciunt explicabo suscipit commodi? Dolores repellendus autem animi quo quisquam atque vitae blanditiis.
+                </p>
+            </div>
+        </div>
+        <div class="service-container" id="reversed-container">
+            <div class="details">
+                <h1 class="h-secondary">
+                    Best Music Quality
+                </h1>
+                <p class="p-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam obcaecati molestias harum quam ad fugit iusto praesentium quas, earum reiciendis quibusdam nostrum dolores sint velit perspiciatis beatae accusantium natus autem veniam nesciunt explicabo suscipit commodi? Dolores repellendus autem animi quo quisquam atque vitae blanditiis.
+                </p>
+            </div>
+            <img src="{{ url_for('static', filename='Images/2.jpg') }}" alt="" class="service-image">
+        </div>
+        <div class="service-container">
+            <img src="{{ url_for('static', filename='Images/3.jpg') }}" alt="" class="service-image">
+            <div class="details">
+                <h1 class="h-secondary">
+                    Best Music Quality
+                </h1>
+                <p class="p-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam obcaecati molestias harum quam ad fugit iusto praesentium quas, earum reiciendis quibusdam nostrum dolores sint velit perspiciatis beatae accusantium natus autem veniam nesciunt explicabo suscipit commodi? Dolores repellendus autem animi quo quisquam atque vitae blanditiis.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+        <img src="{{ url_for('static', filename='Images/about.jpg') }}" alt="about" class="about-image">
+        <div class="about-details">
+            <h1 class="h-secondary" style="font-size: 2.4rem;">About Us</h1>
+            <p class="p-secondary" id="about-para" style="font-size: 1.23rem;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique sequi voluptatibus quaerat numquam explicabo pariatur eaque, magni atque impedit dolores quibusdam rerum odit cupiditate recusandae porro ipsum at iste velit nemo modi tempore enim! Accusamus atque quidem alias vel quis, quisquam laboriosam dolorum fuga id pariatur vero, placeat expedita. Rem, obcaecati beatae! Adipisci quos ea minus atque ratione rerum odit neque cupiditate. Dolorum autem vero ullam aut soluta ducimus, impedit debitis tempora quisquam laboriosam recusandae quasi animi?
+            </p>
+        </div>
+    </section>
+{% endblock body %}
