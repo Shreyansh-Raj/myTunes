@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
-html{
-    scroll-behavior: smooth;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 /* Styling contact us section */
 
 #contact-us{
@@ -59,4 +50,27 @@ textarea{
 #btn{
     cursor: pointer;
     background-color: #898888e0;
+}
+
+/* Css for mobile view */
+@media only screen and (max-width:1287px){
+    #container{
+        width: 50%;
+    }
+    
+    @media only screen and (max-width:695px){
+        #container{
+            width: 70%;
+        }
+        @media only screen and (max-width:695px){
+            .h-primary{
+                font-size: 2.3rem;
+            }
+            @media only screen and (max-width:450px){
+                .h-primary{
+                    font-size: 10vw;
+                }
+            }
+        }
+    }
 }

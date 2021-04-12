@@ -7,15 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
-html{
-    scroll-behavior: smooth;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 /* Styling home section */
 
 #home::before{

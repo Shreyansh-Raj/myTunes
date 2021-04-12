@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-html{
-    scroll-behavior: smooth;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 /* Styling section */
 
 .h-primary{
