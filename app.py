@@ -69,7 +69,3 @@ def delete(sno):
     db.session.delete(entry)
     db.session.commit()
     return redirect('/admin')
-
-# development code
-if __name__=='__main__':
-    app.run(debug=True)
