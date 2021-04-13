@@ -69,3 +69,6 @@ def delete(sno):
     db.session.delete(entry)
     db.session.commit()
     return redirect('/admin')
+
+if __name__=='__main__':
+    app.run()
