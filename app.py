@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 # Initializing flask app
 app = Flask(__name__)
-app.secret_key = "abc" 
+
 # Configuring database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
